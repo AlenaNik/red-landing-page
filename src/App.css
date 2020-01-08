@@ -2,10 +2,10 @@
     max-width: 100%;
     min-height: 480px;
     width: 1280px;
-    height: 770px;
+    height: auto;
     opacity: 1;
     background: url('./assets/images/bg-image@2x.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 .header-icons {
@@ -26,28 +26,68 @@
 .header-title {
     font-family: effra, sans-serif;
     color: white;
-    font-size: .75rem;
+    font-size: 1.3vw;
     font-weight: 400;
     letter-spacing: .06em;
     line-height: 1.8em;
+    padding-top: 1rem;
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    width: 100%;
 }
 
 .header-call-to-action {
     font-family: effra, sans-serif;
-    color: white;
-    word-break: break-all;
-    font-size: 4rem;
-    font-weight: 400;
-    width: 100%;
-    line-height: 1em;
+    color: #fff;
     margin: 0;
-    opacity: 1;
+    font-size: 10vw;
+    font-weight: 400;
+    line-height: 1em;
     text-transform: uppercase;
     text-align: center;
     word-wrap: break-word;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 10rem;
 }
+
+main {
+    background: #FFFFFF;
+    max-width: 100%;
+    min-height: 480px;
+    max-height: 2462px;
+    margin: 2rem;
+}
+.main-title {
+    font-family: effra, sans-serif;
+    color: #2F272A;
+    font-size: 10vw;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: left;
+}
+.main-subtitle {
+    font-family: effra, sans-serif;
+    color: #2F272A;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 1.4em;
+    text-align: left;
+}
+strong {
+    color: #ff004e;
+    font-weight: 300;
+}
+
+.articles {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+    font-size: 1.6vw;
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+    columns: 2 200px;
+    -webkit-column-gap: 4em;
+    -moz-column-gap: 4em;
+    column-gap: 4em;
+}
+
