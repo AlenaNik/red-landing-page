@@ -1,0 +1,53 @@
+.main-section {
+    max-width: 100%;
+    min-height: 480px;
+    width: 1280px;
+    height: 770px;
+    opacity: 1;
+    background: url('./assets/images/bg-image@2x.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    padding: 4rem 6rem;
+}
+
+.burger {
+    padding: 4rem 6rem;
+}
+
+.header-title {
+    font-family: effra, sans-serif;
+    color: white;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .06em;
+    line-height: 1.8em;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.header-call-to-action {
+    font-family: effra, sans-serif;
+    color: white;
+    word-break: break-all;
+    font-size: 4rem;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1em;
+    margin: 0;
+    opacity: 1;
+    text-transform: uppercase;
+    text-align: center;
+    word-wrap: break-word;
+    padding-top: 2rem;
+}
