@@ -1,7 +1,8 @@
 .main-section {
     max-width: 100%;
     min-height: 480px;
-    width: 1280px;
+    width: 100%;
+    height: auto;
     opacity: 1;
     background: url('./assets/images/bg-image@2x.png') no-repeat;
     background-size: cover;
@@ -14,13 +15,10 @@
     align-items: center;
 }
 
-.logo {
+.logo, .burger {
     padding: 4rem 6rem;
 }
 
-.burger {
-    padding: 4rem 6rem;
-}
 
 .header-title, .clients-text-middle {
     font-family: effra, sans-serif;
@@ -52,7 +50,6 @@
 main {
     background: #FFFFFF;
     max-width: 100%;
-    min-height: 480px;
     max-height: 2462px;
     margin: 2rem;
     padding-bottom: 8rem;
@@ -107,6 +104,7 @@ strong {
     flex-wrap: wrap;
     list-style: none;
     position: relative;
+    padding-right: 2rem;
 }
 
 li {
@@ -150,3 +148,54 @@ footer {
     line-height: 2em;
     font-size: 1.6vw;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .articles {
+        -webkit-columns: 1 400px;
+        -moz-columns: 1 400px;
+        columns: 1 400px;
+        padding-bottom: 1rem;
+    }
+    .main {
+        padding-bottom: 1rem;
+    }
+    .list-of-clients {
+        padding-right: 2.8rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        position: relative;
+    }
+    .client-img {
+        height: auto;
+        max-height: 1rem;
+        max-width: 3rem;
+    }
+    .logo, .burger {
+        padding: 4rem 2rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .list-of-clients {
+        padding-right: 2.8rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        position: relative;
+    }
+    main {
+        padding-bottom: 2rem;
+    }
+    .logo, .burger, .footer-logo  {
+        width: 20%;
+    }
+}
+
