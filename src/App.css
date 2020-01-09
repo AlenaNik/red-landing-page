@@ -179,8 +179,8 @@ footer {
     }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 415px and down) */
+@media only screen and (max-width: 415px) {
     .list-of-clients {
         padding-right: 2.8rem;
         align-items: center;
