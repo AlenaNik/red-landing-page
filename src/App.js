@@ -59,40 +59,40 @@ function App() {
         </article>
            </div>
       </main>
-  <section>
+  <section className="container-clients">
     <p className="clients-text-middle">
       We love our clients
     </p>
     <ul className="list-of-clients">
         <li>
-          <img src={ono} alt="our client Ono"/>
+          <img className="client-img" src={ono} alt="our client Ono"/>
         </li>
         <li>
-          <img src={bbva} alt="our client BBVA"/>
+          <img className="client-img" src={bbva} alt="our client BBVA"/>
         </li>
           <li>
-            <img src={samsung} alt="our client Samsung"/>
+            <img className="client-img" src={samsung} alt="our client Samsung"/>
           </li>
           <li>
-            <img src={roca} alt="our client Roca"/>
+            <img className="client-img" src={roca} alt="our client Roca"/>
           </li>
           <li>
-            <img src={carrefour} alt="our client Carrefour"/>
+            <img className="client-img" src={carrefour} alt="our client Carrefour"/>
           </li>
           <li>
-            <img src={nestle} alt="our client Nestle"/>
+            <img className="client-img" src={nestle} alt="our client Nestle"/>
           </li>
           <li>
-            <img src={nhhotels} alt="our client NH Hotels"/>
+            <img className="client-img" src={nhhotels} alt="our client NH Hotels"/>
           </li>
           <li>
-            <img src={mapfre} alt="our client Mafre"/>
+            <img className="client-img" src={mapfre} alt="our client Mafre"/>
           </li>
           <li>
-            <img src={ebay} alt="our client Ebay"/>
+            <img className="client-img" src={ebay} alt="our client Ebay"/>
           </li>
           <li>
-            <img src={telefonica} alt="our client Telefonica"/>
+            <img className="client-img" src={telefonica} alt="our client Telefonica"/>
           </li>
     </ul>
     <div>
@@ -100,9 +100,11 @@ function App() {
     </div>
   </section>
       <footer>
-        <img src={left} alt="red round logo"/>
+        <div className="footer-copyright">
+        <img className="footer-logo" src={right} alt="black simple logo"/>
         <p>© 2015 Redbility</p>
-        <img src={right} alt="black simple logo"/>
+        </div>
+            <img className="footer-logo" src={left} alt="red round logo"/>
       </footer>
     </div>
   );
