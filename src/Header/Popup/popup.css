@@ -72,3 +72,25 @@ li {
     color: #ff004e;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .burger-menu,
+    .burger-menu.open {
+        right: 0.2rem;
+    }
+}
+
+/* Extra small devices (phones, 415px and down) */
+@media only screen and (max-width: 415px) {
+    .burger-menu,
+    .burger-menu.open {
+        right: 0;
+        margin-right: 0;
+        position: fixed;
+        padding: 1rem;
+        background: #ff004e;
+        transition: 0.4s;
+    }
+}
+
+
