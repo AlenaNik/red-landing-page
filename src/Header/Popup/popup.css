@@ -76,7 +76,12 @@ li {
 @media only screen and (max-width: 600px) {
     .burger-menu,
     .burger-menu.open {
-        right: 0.2rem;
+        right: 0;
+        margin-right: 0;
+        position: fixed;
+        padding: 1rem;
+        background: #ff004e;
+        transition: 0.4s;
     }
 }
 
