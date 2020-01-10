@@ -40,34 +40,34 @@ function App() {
       We love our clients
     </p>
     <ul className="list-of-clients">
-        <li>
+        <li className="client-item">
           <img className="client-img" src={ono} alt="our client Ono"/>
         </li>
-        <li>
+        <li className="client-item">
           <img className="client-img" src={bbva} alt="our client BBVA"/>
         </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={samsung} alt="our client Samsung"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={roca} alt="our client Roca"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={carrefour} alt="our client Carrefour"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={nestle} alt="our client Nestle"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={nhhotels} alt="our client NH Hotels"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={mapfre} alt="our client Mafre"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={ebay} alt="our client Ebay"/>
           </li>
-          <li>
+          <li className="client-item">
             <img className="client-img" src={telefonica} alt="our client Telefonica"/>
           </li>
     </ul>

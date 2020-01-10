@@ -1,8 +1,18 @@
 import React from 'react';
-import Burger from "./BurgerMenu";
+import Popup from "reactjs-popup";
+import BurgerIcon from "./Burger.popup";
+import Menu from "./Menu.popup";
+import "./popup.css";
+import "./App.css";
+
+const contentStyle = {
+    background: "rgba(255,255,255,0)",
+    width: "80%",
+    border: "none",
+};
+
 
 const Header = () => {
-
 
     return (
         <header>
@@ -17,7 +27,15 @@ const Header = () => {
                         </g>
                     </svg>
                     <div>
-                        <Burger className="burger"/>
+                        <Popup
+                            modal
+                            overlayStyle={{ background: "rgba(0,0,0,0.90" }}
+                            contentStyle={contentStyle}
+                            closeOnDocumentClick={false}
+                            trigger={open => <BurgerIcon open={open} />}
+                        >
+                            {close => <Menu close={close} />}
+                        </Popup>
                     </div>
                 </div>
                 <h2 className="header-title">
