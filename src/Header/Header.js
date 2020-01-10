@@ -1,9 +1,9 @@
 import React from 'react';
 import Popup from "reactjs-popup";
-import BurgerIcon from "./Burger.popup";
-import Menu from "./Menu.popup";
-import "./popup.css";
-import "./App.css";
+import BurgerIcon from "./Popup/Burger.popup";
+import Menu from "./Popup/Menu.popup";
+import "./Popup/popup.css";
+import "../App.css";
 const contentStyle = {
     background: "rgba(255,255,255,0)",
     width: "80%",
