@@ -27,7 +27,7 @@
 .header-title, .clients-text-middle {
     font-family: effra, sans-serif;
     color: white;
-    font-size: 1vw;
+    font-size: 0.7rem;
     font-weight: 400;
     letter-spacing: .06em;
     line-height: 1.8em;
@@ -182,12 +182,27 @@ footer {
         max-height: 1rem;
         max-width: 3rem;
     }
-    .logo, .burger {
+    .logo  {
+        width: 20%;
         padding: 4rem 2rem;
+        transition: 0.4s;
+    }
+    .footer-logo {
+        width: 30%;
+        padding: 2rem 1rem 2rem 1rem;
     }
     .dots {
         display: none;
     }
+
+    .header-title, .clients-text-middle {
+        font-size: 0.5rem;
+    }
+    .footer-copyright {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /* Extra small devices (phones, 415px and down) */
@@ -205,11 +220,25 @@ footer {
     main {
         padding-bottom: 2rem;
     }
-    .logo, .footer-logo  {
+    .logo  {
         width: 20%;
+        padding: 4rem 2rem;
+        transition: 0.4s;
     }
     .dots {
         display: none;
+    }
+    .header-title, .clients-text-middle {
+        font-size: 0.5rem;
+    }
+    .footer-logo {
+        width: 30%;
+        padding: 2em 1em 2em 1em;
+    }
+
+    .footer-copyright {
+        display: flex;
+        flex-direction: column;
     }
 }
 
