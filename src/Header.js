@@ -4,7 +4,6 @@ import BurgerIcon from "./Burger.popup";
 import Menu from "./Menu.popup";
 import "./popup.css";
 import "./App.css";
-
 const contentStyle = {
     background: "rgba(255,255,255,0)",
     width: "80%",
@@ -38,12 +37,34 @@ const Header = () => {
                         </Popup>
                     </div>
                 </div>
+                <div className="mid-section">
                 <h2 className="header-title">
                     Discover
                 </h2>
                 <h1 className="header-call-to-action">Our new
                     <br/>
                     look</h1>
+                <svg className="dots" xmlns="http://www.w3.org/2000/svg" width="102.26" height="6.99" viewBox="0 0 102.26 6.99">
+                    <g transform="translate(-588.87 -697.32)">
+                        <ellipse className="a" cx="3.13" cy="3.09" rx="3.13" ry="3.09"
+                                 fill="#fff"
+                                 transform="translate(636.87 698.13)
+                             "/>
+                        <ellipse className="a" cx="3.13" cy="3.09" rx="3.13" ry="3.09"
+                                 fill="#fff"
+                                 transform="translate(684.87 697.32)"/>
+                        <ellipse className="a" cx="3.13" cy="3.11" rx="3.13" ry="3.11"
+                                 fill="#fff"
+                                 transform="translate(588.87 697.5)"/>
+                        <ellipse className="a" cx="3.13" cy="3.09" rx="3.13" ry="3.09"
+                                 fill="#fff"
+                                 transform="translate(660.87 697.72)"/>
+                        <ellipse className="b" cx="3.13" cy="3.09" rx="3.13" ry="3.09"
+                                 fill="#ff004e"
+                                 transform="translate(612.87 697.72)"/>
+                    </g>
+                </svg>
+                </div>
             </div>
         </header>
     )

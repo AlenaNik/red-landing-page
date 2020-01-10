@@ -19,17 +19,20 @@
     padding: 4rem 6rem;
 }
 
+.mid-section {
+    display: grid;
+    place-items: center;
+}
 
 .header-title, .clients-text-middle {
     font-family: effra, sans-serif;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 400;
     letter-spacing: .06em;
     line-height: 1.8em;
     padding-top: 1rem;
     margin: 0;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -40,19 +43,24 @@
     font-size: 8vw;
     font-weight: 400;
     line-height: 1em;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
     word-wrap: break-word;
     padding-top: 1.5rem;
     padding-bottom: 10rem;
+}
+
+.dots {
+    padding: 1rem;
+    cursor: pointer;
 }
 
 main {
     background: #FFFFFF;
     max-width: 100%;
     max-height: 2462px;
-    margin: 2rem;
-    padding-bottom: 8rem;
+    margin: 6rem;
+    padding-bottom: 3rem;
 }
 .main-title {
     font-family: effra, sans-serif;
@@ -92,7 +100,8 @@ strong {
 
 .container-clients {
     color: #fff;
-    display: block;
+    display: grid;
+    place-items: center;
     background: #2f272a;
     padding-top: 4rem;
 }
@@ -126,7 +135,7 @@ strong {
 }
 footer {
     background: #FFFFFF;
-    padding: 2rem;
+    padding: 2rem 6rem 2rem 6rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -145,8 +154,7 @@ footer {
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    line-height: 2em;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 
 
@@ -177,6 +185,9 @@ footer {
     .logo, .burger {
         padding: 4rem 2rem;
     }
+    .dots {
+        display: none;
+    }
 }
 
 /* Extra small devices (phones, 415px and down) */
@@ -196,6 +207,9 @@ footer {
     }
     .logo, .footer-logo  {
         width: 20%;
+    }
+    .dots {
+        display: none;
     }
 }
 
