@@ -193,7 +193,7 @@ footer {
 /* Extra small devices (phones, 415px and down) */
 @media only screen and (max-width: 415px) {
     .list-of-clients {
-        padding-right: 2.8rem;
+        padding-right: 5rem;
         align-items: center;
         display: flex;
         flex-direction: column;
